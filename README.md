@@ -45,8 +45,8 @@ e.g.\
 Requirements:
 - In addition to **procedural programming**, also use **modular programming** by having a **UI** module, a **Functions** module and a **Start** module
 - The **UI** module provides a command-based console user interface that accepts given commands **exactly** as stated
-- Handle the case of incorrect user input by displaying error messages. The program must not crash regardless of user input.
+- Handle the case of incorrect user input by displaying error messages; The program must not crash regardless of user input
 - Use the built-in `list` or `dict` compound types to represent entities in the problem domain and access/modify them using *getter* and *setter* functions
-- Use Python's [exception mechanism](https://docs.python.org/3/tutorial/errors.html) so that functions can signal that an exceptional situation, or error, has happened.
+- Use Python's exception mechanism so that functions can signal that an exceptional situation, or error, has happened
 - Provide **specifications** for all non-UI functions (except getters and setters), and tests for all non-UI functions related to functionalities **(A)** and **(B)**
 - Have at least 10 randomly generated items in your application at program startup

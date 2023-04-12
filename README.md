@@ -44,7 +44,7 @@ e.g.\
 **(E) Undo**\
 `undo` – the last operation that modified program data is reversed. The user can undo all operations performed since program start by repeatedly calling this function.
 
-Additional implementations:
+Additional requirements:
 
 - handling of `incorrect user input` by displaying error messages (the program does not crash regardless of user input)
 - built-in `list` and `dict` compound types to represent entities in the problem domain and `getter` and `setter` functions to access/modify them

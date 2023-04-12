@@ -1,6 +1,8 @@
 # Bank-Account-Management
 
-Application that stores all the bank transactions performed on an account during a month. Each transaction is stored in the application using the following elements: `day` (of the month in which the transaction was made, between 1 and 30 for simplicity), `amount of money` (transferred, positive integer), `type` (`in` - into the account, `out` – from the account), and `description`. The program implements the functionalities exemplified below:
+Application that stores all the bank transactions performed on an account during a month. Each transaction is stored in the application using the following elements: `day` (of the month in which the transaction was made, between 1 and 30 for simplicity), `amount of money` (transferred, positive integer), `type` (`in` - into the account, `out` – from the account), and `description`. 
+
+The program implements the functionalities exemplified below:
 
 **(A) Add transaction**\
 `add <value> <type> <description>`\
@@ -42,11 +44,11 @@ e.g.\
 **(E) Undo**\
 `undo` – the last operation that modified program data is reversed. The user can undo all operations performed since program start by repeatedly calling this function.
 
-Requirements:
-- In addition to **procedural programming**, also use **modular programming** by having a **UI** module, a **Functions** module and a **Start** module
-- The **UI** module provides a command-based console user interface that accepts given commands **exactly** as stated
-- Handle the case of incorrect user input by displaying error messages; The program must not crash regardless of user input
-- Use the built-in `list` or `dict` compound types to represent entities in the problem domain and access/modify them using *getter* and *setter* functions
-- Use Python's exception mechanism so that functions can signal that an exceptional situation, or error, has happened
-- Provide **specifications** for all non-UI functions (except getters and setters), and tests for all non-UI functions related to functionalities **(A)** and **(B)**
-- Have at least 10 randomly generated items in your application at program startup
+Additional implementations:
+
+- handling of `incorrect user input` by displaying error messages (the program does not crash regardless of user input)
+- built-in `list` and `dict` compound types to represent entities in the problem domain and `getter` and `setter` functions to access/modify them
+- use of `Python's exception mechanism`
+- `specifications` for all non-UI functions (except getters and setters)
+- `tests` for all non-UI functions related to functionalities (A) and (B)
+- 10 `randomly generated` items in application at program startup
